@@ -1,83 +1,122 @@
-# 🛡️ FUTURE_CS_02 – Security Alert Monitoring & Incident Response
+## 🧑‍💻 Author
 
-## 📌 Task Overview
+**Name:** Ayush Shrivastav  
+**Role:** Cyber Security Intern at Future Interns  
+**LinkedIn:** https://www.linkedin.com/in/ayush-shrivastav-123869291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app 
+**Email:** shrivastavayush796@gmail.com 
 
-**Task Title:** Security Alert Monitoring & Incident Response  
-**Internship Track:** Cyber Security  
-**Internship Provider:** [Future Interns](https://futureinterns.com)  
-**Task Link:** [futureinterns.com/cyber-security-task-2](https://futureinterns.com/cyber-security-task-2/)
+## 📎 Resources
+
+- [Future Interns LinkedIn](https://www.linkedin.com/company/future-interns/)  
+- [Official Website](https://futureinterns.com)
+
+
+> _This README is a submission for Task 2 of the Future Interns Cyber Security Internship. All work presented here is original and done solely for educational and training purposes._
+# 🛡 FUTURE_CS_02 – Security Alert Monitoring & Incident Response
+
+## 📌 Internship Task Details
+
+- **Internship Track:** Cyber Security  
+- **Internship Provider:** [Future Interns](https://futureinterns.com)  
+- **Task:** Task 2 – Monitor simulated security alerts using a SIEM tool  
+- **Prepared By:** Ayush Shrivastav  
+- **Date:** 1 July 2025  
+
+🔗 [Official Task Page](https://futureinterns.com/cyber-security-task-2/)
+
+---
 
 ## 🎯 Objective
 
-Monitor and analyze simulated security alerts using a SIEM tool (like ELK or Splunk), identify suspicious activities, classify security incidents, and draft an incident response report with proper recommendations.
+To analyze and monitor simulated security alerts using a SIEM tool, classify the type and severity of incidents, and prepare a comprehensive incident response report detailing findings and recommendations.
 
 ---
 
-## 🧠 Skills Gained
+## 🧰 Tools Used
 
-- 🔍 Log Analysis
-- 🚨 Alert Triage
-- 📑 Incident Classification
-- 🏢 SOC Operations Basics
-- ✍️ Report Writing
-
----
-
-## 🧰 Tools & Technologies Used
-
-- **SIEM Platform:** ELK Stack (Elasticsearch, Logstash, Kibana)  
-- **Log Files:** Sample logs (HTTP access, system logs, IDS alerts)  
-- **Other Tools:** Wireshark (optional), Splunk Free Trial, Visual Studio Code  
-- **Languages/Commands:** Bash (for parsing), JSON/YAML (configurations)
-
----
----
-
-## ✅ Task Steps
-
-1. **Ingest Logs** into the ELK or Splunk platform.
-2. **Monitor Alerts** via dashboards and identify suspicious activities.
-3. **Classify Incidents** based on severity (e.g., Unauthorized Login, Malware Detection, etc.).
-4. **Analyze Impact** and note affected systems.
-5. **Draft Response Plan** including:
-   - Alert summary
-   - Type of attack (e.g., brute force, XSS, malware)
-   - Mitigation strategy
-6. **Document Everything** in an incident response report.
+- **SIEM Tool:** ELK Stack (Elasticsearch, Logstash, Kibana)
+- **Log Sources:** Simulated security logs
+- **Report Editor:** Microsoft Word (.docx)
+- **Other Tools:** Visual Studio Code, Bash (optional)
 
 ---
 
-## 📊 Sample Findings
+## 📊 Executive Summary
 
-| Timestamp           | Source IP     | Alert Type        | Severity | Action Taken             |
-|---------------------|---------------|-------------------|----------|--------------------------|
-| 2025-07-07 14:22:10 | 192.168.1.5   | SSH Brute Force   | High     | IP blocked via firewall  |
-| 2025-07-08 09:17:45 | 10.0.0.3      | SQL Injection     | Medium   | Notified DevOps for patch|
-| 2025-07-08 21:03:01 | 172.16.0.22   | Malware Detected  | Critical | Isolated affected host   |
+On **1 July 2025**, during routine monitoring, multiple suspicious activities were detected, including:
 
----
+- Brute Force Login Attempts  
+- SQL Injection  
+- Malware Infection  
+- Phishing Email Clicks  
+- Port Scanning  
+- Cross Site Scripting  
+- Unauthorized Access  
+- Login Failures  
 
-## 📄 Deliverables
-
-- ✔️ Incident Response Report (DOCX)
-- ✔️ Sample Log Files
-- ✔️ Screenshot Proofs from SIEM Tool
-- ✔️ Bash Scripts (if any)
+These alerts were analyzed and classified based on severity and type, with appropriate response actions recommended.
 
 ---
 
-## 🙌 Acknowledgment
+## ⏱ Timeline of Events
 
-This project is part of the **Cyber Security Internship** by **[Future Interns](https://futureinterns.com)**.
-
-> Feel free to connect on [LinkedIn](https://www.linkedin.com/company/future-interns/) for more updates!
+| Time   | Event                      | User   | IP Address       |
+|--------|----------------------------|--------|------------------|
+| 09:15  | Brute Force Login          | Nina   | 192.168.1.110    |
+| 09:17  | Login Failed               | Oliver | 192.168.1.111    |
+| 09:20  | SQL Injection Attempt      | Paul   | 203.0.113.60     |
+| 09:21  | Cross Site Scripting       | Quinn  | 203.0.113.61     |
+| 09:24  | Malware Infection          | Rachel | 198.51.100.35    |
+| 09:26  | Login Failed               | Steve  | 192.168.1.112    |
+| 09:29  | Phishing Email Clicked     | Tina   | 198.51.100.36    |
+| 09:30  | Login Success              | Umar   | 10.0.0.12        |
+| 09:33  | Port Scanning              | Victor | 198.51.100.37    |
 
 ---
 
-## 📬 Contact
+## 🛑 Alert Classification
 
-**Intern Name:** Ayush Shrivastav  
-**LinkedIn:** https://www.linkedin.com/in/ayush-shrivastav-123869291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app  
-**Email:** shrivastavayush759@gmail.com
+| # | Time   | Threat Type              | User    | IP Address       | Severity |
+|---|--------|--------------------------|---------|------------------|----------|
+| 1 | 09:15  | Brute Force Login        | Nina    | 192.168.1.110    | High     |
+| 2 | 09:17  | Login Failed             | Oliver  | 192.168.1.111    | Medium   |
+| 3 | 09:20  | SQL Injection Attempt    | Paul    | 203.0.113.60     | High     |
+| 4 | 09:21  | Cross Site Scripting     | Quinn   | 203.0.113.61     | Medium   |
+| 5 | 09:24  | Malware Infection        | Rachel  | 198.51.100.35    | High     |
+| 6 | 09:26  | Login Failed             | Steve   | 192.168.1.112    | Medium   |
 
-## 📂 Folder Structure# FUTURE_CS_02
+---
+
+## 📉 Impact Assessment
+
+These security events posed significant risks to:
+
+- 🔐 Confidentiality of sensitive data  
+- 🔄 Integrity of systems and applications  
+- 🚫 Availability of resources and services  
+
+Unaddressed, these incidents could lead to data breaches, denial of service, or unauthorized control over systems.
+
+---
+
+## 🛡 Recommendations
+
+### ✅ Immediate Actions
+
+- Block malicious IP addresses.
+- Reset user accounts with suspicious activity and enforce MFA.
+- Scan and disinfect infected hosts.
+
+### 🛠 Medium-Term Fixes
+
+- Patch vulnerable systems and update all software.
+- Review and harden firewall and IDS configurations.
+
+### 🔐 Long-Term Improvements
+
+- Train staff on phishing and cyber hygiene.
+- Implement continuous monitoring and access controls.
+
+---
+
+## 📁 Project Structure
