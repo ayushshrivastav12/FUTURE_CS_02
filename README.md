@@ -2,7 +2,7 @@
 
 **Name:** Ayush Shrivastav  
 **Role:** Cyber Security Intern at Future Interns  
-**LinkedIn:** https://www.linkedin.com/in/ayush-shrivastav-123869291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app 
+**LinkedIn:** http://linkedin.com/in/ayush-shrivastav-123869291
 
 **Email:** shrivastavayush759@gmail.com 
 
